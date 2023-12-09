@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+* {
+    box-sizing: border-box;
+}
+.aboutsocial .social {
+	float:left;
+	width: 100%;
+	height:auto;
+	text-align: center;
+    padding: 0px;
+	margin: 0px 0px 0px 200px;
+}
+.aboutsocial .social ul {
+    list-style-type: none;
+	width:100%;
+	height:auto;
+    margin: auto;
+    padding: 0px;
+    overflow: hidden;
+}
+.aboutsocial .social a {
+    display: block;
+	width: 70px;
+    height:auto;
+	padding:0px;
+}
+.aboutsocial .social img{
+	filter: drop-shadow(5px 5px 5px #000000);
+}
+.aboutsocial .social li {
+    float: left;
+	margin:0px 0px 0px 10px
+}
+.aboutsocial .social .facebook {
+        width: 70px;
+        height:70px;
+        background: url("images/logos-black-circle/facebook.png") no-repeat;
+        display: inline-block;
+		filter: drop-shadow(5px 5px 5px rgba(34,34,34,1.00));
+    }
+.aboutsocial .social .facebook:hover {
+        background: url("images/logos-light-blue-circle/facebook.png") no-repeat;
+    }
+.aboutsocial .social .messenger {
+        width: 70px;
+        height:70px;
+        background: url("images/logos-black-circle/messenger.png") no-repeat;
+        display: inline-block;
+		filter: drop-shadow(5px 5px 5px rgba(34,34,34,1.00));
+    }
+.aboutsocial .social .messenger:hover {
+        background: url("images/logos-light-blue-circle/messenger.png") no-repeat;
+    }
+.aboutsocial .social .instagram {
+        width: 70px;
+        height:70px;
+        background: url("images/logos-black-circle/instagram.png") no-repeat;
+        display: inline-block;
+		filter: drop-shadow(5px 5px 5px rgba(34,34,34,1.00));
+    }
+.aboutsocial .social .instagram:hover {
+        background: url("images/logos-light-blue-circle/instagram.png") no-repeat;
+    }
+.aboutsocial .social .email {
+        width: 70px;
+        height:90px;
+        background: url("images/logos-black-circle/email.png") no-repeat;
+        display: inline-block;
+		filter: drop-shadow(5px 5px 5px rgba(34,34,34,1.00));
+    }
+.aboutsocial .social .email:hover {
+        background: url("images/logos-light-blue-circle/email.png") no-repeat;
+    }
